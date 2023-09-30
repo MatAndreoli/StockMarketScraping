@@ -1,6 +1,0 @@
-{
-  "version": 2,
-  "routes": [{ "src": "/(.*)", "dest": "/main.py" }],
-  "installCommand": "python -m venv venv && source ./venv/bin/activate && which scrapy && pip install -r requirements.txt",
-  "public": true
-}
